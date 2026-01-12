@@ -8,10 +8,10 @@ Frequency-Driven Adaptive Calibration Transformer for Progress Aware Real-world 
 ```
 .
 ├── main.py                      # Main entry point for training and testing
-├── train.py                     # Training script with loss functions and optimization
-├── eval.py                      # Evaluation script for testing
-├── valid.py                     # Validation script during training
-├── utils.py                     # Utility functions (metrics, timers, etc.)
+├── train.py                  
+├── eval.py                     
+├── valid.py                   
+├── utils.py                   
 ├── data/
 │   ├── data_load.py            # Data loading and dataset classes
 │   ├── data_augment.py          # Data augmentation transforms
@@ -23,18 +23,18 @@ Frequency-Driven Adaptive Calibration Transformer for Progress Aware Real-world 
 │           ├── hazy/            # Hazy test images
 │           └── gt/              # Ground truth test images
 ├── models/
-│   ├── former.py                # Main DehazeFormer model architecture
-│   ├── transformer_block.py    # Transformer block implementation
-│   ├── layer.py                 # Patch embedding and unembedding layers
-│   ├── attention.py             # Attention mechanism
-│   ├── feed_forward.py          # Feed-forward network
-│   ├── freq_processing.py       # Frequency domain processing
-│   └── DegenerativePerceptionMoudel.py  # DPM fusion module
-└── results/                     # Output directory for models and results
+│   ├── former.py             
+│   ├── transformer_block.py    
+│   ├── layer.py                
+│   ├── attention.py            
+│   ├── feed_forward.py          
+│   ├── freq_processing.py     
+│   └── DegenerativePerceptionMoudel.py  
+└── results/                   
     └── Dehazeformer/
-        ├── Best.pkl             # Best model checkpoint
-        ├── model.pkl            # Latest model weights
-        └── test/                # Test results
+        ├── Best.pkl           
+        ├── model.pkl           
+        └── test/               
 ```
 
 ## Environment Configuration
